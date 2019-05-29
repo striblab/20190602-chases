@@ -173,14 +173,18 @@
       margin-left:auto;
       margin-right:auto;
       margin-bottom:15px;
+      font-size:0.9em;
+      margin-top:25px;
   
       .label {
         font-weight:bold;
+        font-size:0.8em;
       }
       
       .bar {
         height:35px;
         margin-bottom:10px;
+        font-size:0.8em;
       }
       
       .bar div {
@@ -329,6 +333,7 @@
     
     .chatter {
         line-height:140%;
+        margin-bottom:15px;
     }
     
     .chartTitle {
