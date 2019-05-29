@@ -1,0 +1,60 @@
+
+<div id="when" class="slide">
+	<div class="chartTitle">When police most often use force</div>
+	<div class="chatter">When the Minneapolis police use force against a suspect, there are common situations and outcomes involved.</div>
+	<div id="chartCommon">
+		<div class="label">Community of incident</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:34%"><div>Central<br />35%</div></div><div class='blue4 mainbar' style="width:19%"><div>Near North<br />19%</div></div><div class='blue3 mainbar' style="width:12%"><div>Camden<br />9%</div></div><div class='blue2 mainbar' style="width:35%"><div>Other<br />36%</div></div>
+	    </div>
+	    
+		<div class="label">Race of suspect</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:60%"><div>Black<br />63%</div></div><div class='blue4 mainbar' style="width:21%"><div>White<br />23%</div></div><div class='blue3 mainbar' style="width:19%"><div>Other<br />14%</div></div>
+	    </div>
+
+		<div class="label">Gender of suspect</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:84%"><div>Male<br />84%</div></div><div class='blue4 mainbar' style="width:14%"><div>Female<br />14%</div></div><div class='blue3 mainbar' style="width:2%"><div>&nbsp;<br />&nbsp;</div></div>
+	    </div>
+
+		<div class="label">What officers responded to</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:21%"><div>Suspicious Prsn<br />20%</div></div><div class='blue4 mainbar' style="width:12%"><div>Fight<br />12%</div></div><div class='blue3 mainbar' style="width:13%"><div>Disturb<br />8%</div></div><div class='blue2 mainbar' style="width:54%"><div>Other<br />59%</div></div>
+	    </div>
+
+		<div class="label">Was 911 involved?</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:60%"><div>No<br />60%</div></div><div class='blue4 mainbar' style="width:40%"><div>Yes<br />40%</div></div>
+	    </div>
+
+		<div class="label">How suspects resisted</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:25%"><div>Tensed<br />27%</div></div><div class='blue4 mainbar' style="width:24%"><div>Committed Crime<br />25%</div></div><div class='blue3 mainbar' style="width:13%"><div>Fled<br />15%</div></div><div class='blue2 mainbar' style="width:38%"><div>Other<br />33%</div></div>
+	    </div>
+
+		<div class="label">Type of force used by officer</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:68%"><div>Bodily Force<br />71%</div></div><div class='blue4 mainbar' style="width:18%"><div>Chemical<br />15%</div></div><div class='blue3 mainbar' style="width:14%"><div>Other<br />14%</div></div>
+	    </div>
+
+		<div class="label">Was the suspect injured?</div>
+		<div class="bar">
+			<div class='blue5 mainbar' style="width:70%"><div>No<br />70%</div></div><div class='blue4 mainbar' style="width:30%"><div>Yes<br />30%</div></div>
+	    </div>
+	</div>
+	<div class="byline"><div>Not all totals add to 100 due to rounding.</div>Source: Minneapolis Police Department | Graphic by <a href="http://www.startribune.com/jeff-hargarten/274254381/" target="new_">Jeff Hargarten, Star Tribune</a></div>
+</div>
+
+<script>
+  export default {
+    oncreate() {
+      // For content that lives in the CMS directly, we hack
+      // around the share bits by removing it before we load
+      // the component, then re-attach here.
+      if (this.get().attachShare) {
+        this.get().attachShare();
+      }
+    }
+  };
+</script>
