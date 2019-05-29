@@ -4,6 +4,9 @@
 /**
  * Project specific styling.
  */
+ body {
+   overflow-x:hidden;
+ }
  p {
     -webkit-font-smoothing: antialiased;
   }
