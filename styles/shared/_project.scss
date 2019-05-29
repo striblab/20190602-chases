@@ -1016,7 +1016,10 @@
   }
   
   @media (max-width:400px) {
-  
+    .slide {
+      font-size:0.8em !important;
+
+    }
   }
 
   /*-- Chart --*/
